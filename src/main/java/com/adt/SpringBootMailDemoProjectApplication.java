@@ -24,7 +24,7 @@ public class SpringBootMailDemoProjectApplication {
 //		System.out.println("Email Sent ? :: "+isSent);
 		
 		String[] too={"Aakashmr14343@gmail.com",
-					 "jyotipancholi.adt@gmail.com",
+					 "AkashRaskar.adt@gmail.com",
 					 "akashraskar.adt@gmail.com"};
 		boolean isSent=emailUtils.sendEmailNew(too, subject, body);
 		System.out.println("Email Sent for Multiple Peoples ? :: "+isSent);
